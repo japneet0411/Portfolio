@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.japneet.tld",
+    siteUrl: process.env.SITE_URL,
     title: "portfolio",
   },
   plugins: [
@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "G-KHTJ1ZMVZM",
+        trackingId: process.env.TRACKING_ID,
       },
     },
     "gatsby-plugin-react-helmet",
