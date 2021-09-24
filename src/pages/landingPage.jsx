@@ -20,8 +20,8 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="overflow-hidden bg-black text-color-white w-full h-screen opacity-95">
-      <div className="z-20 animation absolute h-full ">
+    <div className="overflow-hidden bg-black text-color-white w-full h-screen opacity-90">
+      <div className="animation absolute h-full ">
         <Lottie
           options={defaultOptions}
           height={"100vh"}
@@ -47,10 +47,9 @@ const LandingPage = () => {
       >
         Click to know more
       </button>
-      <div className="bg-black  border-4 border-opacity-40 lg:border-opacity-100 lg:border-white imgDiv float-right inline-block -mt-10 -mr-1 ">
+      <div className="bg-black  border-4 border-opacity-60 lg:border-opacity-100 lg:border-white imgDiv float-right inline-block -mt-10 -mr-1 ">
         <img
           src={me}
-          alt="me"
           className="relative me   h-auto opacity-70 ml-auto mt-2 "
         ></img>
       </div>

@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const navbar = () => {
   return (
-    <div className="nav text-md w-full flex flex-row justify-around text-white mr-28 lg:mr-14 p-3 ">
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Experience</a>
+    <div className="-ml-8 nav text-md w-full flex flex-row justify-around text-white  p-3 ">
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/experience">Skills</Link>
     </div>
   );
 };
