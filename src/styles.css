@@ -11,8 +11,10 @@
 }
 
 .me {
-  width: 60%;
+  width: 35%;
   z-index: 1;
+  border-radius: 100%;
+  border-width: 2px;
 }
 .animation {
   z-index: -1;
