@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 const navbar = () => {
   return (
-    <div className="-ml-8 nav text-md w-full flex flex-row justify-around text-white  p-3 ">
+    <div className="mx-auto nav text-md w-full flex flex-row justify-around text-white  p-3 ">
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
