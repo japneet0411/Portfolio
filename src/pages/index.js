@@ -53,12 +53,12 @@ const LandingPage = () => {
           Full Stack Web Developer
         </h3>
       </div>
-      <button
-        type="button"
+      <a
+        href="/about"
         className="text-xl z-20 absolute p-5 left-8 lg:left-44 top-36 mt-56 hover:bg-gray-500 rounded-lg  border-2 border-white text-white"
       >
         Click to know more
-      </button>
+      </a>
       <div className="float-right -mr-5 md:mr-2 opacity-50 lg:opacity-90">
         <Lottie
           options={defaultOptionsimg}

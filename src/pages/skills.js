@@ -10,12 +10,7 @@ import {
   FaNode,
   FaBootstrap,
 } from "react-icons/fa";
-import {
-  SiCplusplus,
-  SiJavascript,
-  SiTailwindcss,
-  SiCoffeescript,
-} from "react-icons/si";
+import { SiCplusplus, SiJavascript, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -25,7 +20,7 @@ const Skills = () => {
       <div className="md:mt-20 grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1  p-10 gap-6">
         <div className="text-white text-center border-2 border-white rounded-2xl p-6 hover:bg-lightBlack">
           <ul className="list-inside list-disc space-y-4 mont inline-block">
-            <p className="text-3xl underline">Skills</p>
+            <p className="text-3xl underline">Skills </p>
 
             <li>FrontEnd development</li>
             <li>Competitive programming</li>
@@ -34,7 +29,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="text-white text-center border-2 border-white rounded-2xl p-6 hover:bg-lightBlack">
-          <p className="text-3xl underline mb-5">Certifications</p>
+          <p className="text-3xl underline mb-5">Certifications </p>
           <ul className="space-y-4 list-inside list-disc inline-block">
             <li>JP Morgan Virtual Internship (ongoing)</li>
             <li>AWS Cloud Practicioner</li>
@@ -43,7 +38,7 @@ const Skills = () => {
         </div>
 
         <div className="hover:bg-lightBlack text-white  mont border-2 border-white rounded-2xl p-6">
-          <p className="text-3xl text-center mb-5 underline ">Languages</p>
+          <p className="text-3xl text-center mb-5 underline ">Languages </p>
           <p className="flex flex-wrap space-x-6 ">
             <FaReact size={40} className="mb-10" />
             <FaPython size={40} className="mb-10" />
