@@ -7,7 +7,12 @@ module.exports = {
         pattern: "url('./images/about.jpg')",
       }),
     },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      lightBlack: "#082032",
+    }),
   },
+
   variants: {
     extend: {},
   },
