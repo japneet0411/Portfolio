@@ -41,8 +41,8 @@ const Projects = () => {
             Portfolio
           </h1>
           <p className="pb-5">
-            My Portfolio website 👩‍💻 built. A static website built using REACT
-            and GATSBY
+            My Portfolio website 👩‍💻. A static website built using REACT and
+            GATSBY
           </p>
 
           <a

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import me from "./../images/me.jpg";
-import { FaDownload, FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
 
@@ -34,7 +34,7 @@ const About = () => {
               </a>
               <hr className="bg-white mt-3 "></hr>
             </div>
-            <p className="text-center text-xl mt-2 mont">GET IN TOUCH </p>
+            <p className="text-center text-xl my-2  mont">GET IN TOUCH </p>
             <p className="text-center text-base mont">
               HackerrankID: japneet_kaur2019 <br />
               CodechefID :japneet0411

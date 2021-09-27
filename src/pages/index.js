@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import * as animationData from "./../images/animation.json";
 import Navbar from "../components/navbar";
 import * as girl from "./../images/girl2.json";
+import { Helmet } from "react-helmet";
 
 const LandingPage = () => {
   const defaultOptions = {
@@ -33,6 +34,10 @@ const LandingPage = () => {
   };
   return (
     <div className="overflow-hidden bg-black text-color-white w-full h-screen opacity-95">
+      <Helmet>
+        <title>title</title>
+        <meta name="description" content="Helmet app" />
+      </Helmet>
       <div className="z-20 animation absolute h-full ">
         <Lottie
           options={defaultOptions}
