@@ -29,9 +29,6 @@ const Projects = () => {
             frontend development of landing page and other sections of the
             website.
           </p>
-          {/* <button className="text-md rounded-lg border-2 p-2 my-2 hover:bg-white hover:text-black">
-            Website Link
-          </button> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work "
@@ -48,8 +45,17 @@ const Projects = () => {
             and GATSBY
           </p>
 
-          <a className="text-md rounded-lg border-2 p-2  hover:bg-white hover:text-black">
+          <a
+            className="text-md rounded-lg border-2 p-2  hover:bg-white hover:text-black mr-3"
+            href="https://github.com/japneet0411/Portfolio"
+          >
             Github Link
+          </a>
+          <a
+            className="text-md rounded-lg border-2 p-2  hover:bg-white hover:text-black"
+            href="#"
+          >
+            Website Link
           </a>
         </VerticalTimelineElement>
         <VerticalTimelineElement
