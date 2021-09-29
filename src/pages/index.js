@@ -35,8 +35,8 @@ const LandingPage = () => {
   return (
     <div className="overflow-hidden bg-black text-color-white w-full h-screen opacity-95">
       <Helmet>
-        <title>title</title>
-        <meta name="description" content="Helmet app" />
+        <title>Portfolio</title>
+        <meta name="description" content="Japneet Kaur" />
       </Helmet>
       <div className="z-20 animation absolute h-full ">
         <Lottie

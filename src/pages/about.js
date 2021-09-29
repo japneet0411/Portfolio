@@ -15,7 +15,13 @@ const About = () => {
       <div className="mx-5 flex flex-col md:flex-row mt-7  text-white ">
         <div className="h-screen md:h-auto w-auto md:w-1/2 mx-auto lg:ml-10 lg:mr-1 space-y-5 ">
           <p className="rounded-xl ease-in-out duration-500 transform hover:scale-105 border-2 border-white p-3  flex-wrap text-lg ">
-            <img src={me} className="float-left me mr-3 mt-3 " alt="me"></img>
+            <img
+              src={me}
+              className="float-left me mr-3 mt-3 "
+              alt="me"
+              height="110px"
+              width="100px"
+            ></img>
             BTech CSE student (2023 batch) with specialization in IOT.
             Interested in web development and competitive programming. Hard
             working and determined, open to learning new technologies, with good
