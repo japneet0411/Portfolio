@@ -21,14 +21,19 @@ const Projects = () => {
           icon={<FaLaptop />}
         >
           <h1 className="underline vertical-timeline-element-title">
-            ARCS Website (ongoing)
+            BlockchainDapp
           </h1>
 
-          <p className="">
-            A website created using REACT and GATSBY. Currently working on the
-            frontend development of landing page and other sections of the
-            website.
+          <p className="pb-5">
+            A simple Social networking Blockchain app made using Ethereum, Remix
+            , Metamask ,IPFS and Vue.js.
           </p>
+          <a
+            className="text-md rounded-lg border-2 p-2  hover:bg-white hover:text-black mr-3"
+            href="https://github.com/japneet0411/Social-Networking-Dapp"
+          >
+            Github Link
+          </a>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work "
