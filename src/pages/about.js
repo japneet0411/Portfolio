@@ -41,14 +41,11 @@ const About = () => {
               <hr className="bg-white mt-3 "></hr>
             </div>
             <p className="text-center text-xl my-2  mont">GET IN TOUCH </p>
-            <p className="text-center text-base mont">
+            {/* <p className="text-center text-base mont">
               HackerrankID: japneet_kaur2019 <br />
               CodechefID :japneet0411
-            </p>
+            </p> */}
             <p className="mt-5 space-x-5 mx-auto  flex flex-auto w-40 ">
-              <a href="https://www.instagram.com/japneetkaur04/">
-                <AiFillInstagram className="cursor-pointer" size={25} />
-              </a>
               <a href="mailto:japneet0411@gmail.com/">
                 <SiGmail className="cursor-pointer" size={25} />
               </a>
@@ -57,6 +54,9 @@ const About = () => {
               </a>
               <a href="https://github.com/japneet0411">
                 <FaGithub className="cursor-pointer" size={25} />
+              </a>
+              <a href="https://www.instagram.com/japneetkaur04/">
+                <AiFillInstagram className="cursor-pointer" size={25} />
               </a>
             </p>
           </p>

@@ -25,15 +25,13 @@ const Skills = () => {
             <li>FrontEnd development</li>
             <li>Competitive programming</li>
             <li>BackEnd development</li>
-            <li>Basic Machine learning </li>
           </ul>
         </div>
         <div className="text-white text-center border-2 border-white rounded-2xl p-6 hover:bg-lightBlack">
-          <p className="text-3xl underline mb-5">Certifications </p>
+          <p className="text-3xl underline mb-5">Certifications/Experience </p>
           <ul className="space-y-4 list-inside list-disc inline-block">
-            <li>JP Morgan Virtual Internship (ongoing)</li>
+            <li>Samsung Prism Internship(ongoing)</li>
             <li>AWS Cloud Practicioner</li>
-            <li>Algorithm Toolbox</li>
           </ul>
         </div>
 
